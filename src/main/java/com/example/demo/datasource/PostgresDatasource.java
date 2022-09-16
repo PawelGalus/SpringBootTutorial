@@ -17,5 +17,5 @@ public class PostgresDatasource {
 				.create()
 				.type(HikariDataSource.class)
 				.build();
-	};
+	}
 }
